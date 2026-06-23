@@ -1325,7 +1325,6 @@
         <a href="register.html"><i class="fas fa-user-plus"></i> Register</a>
         <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
         <a href="schools.html" class="active"><i class="fas fa-school"></i> Schools</a>
-        <a href="#" class="nav-cta"><i class="fas fa-rocket"></i> Get Started</a>
       </nav>
     </div>
   </header>
@@ -1500,9 +1499,12 @@
 
       // 22 SCHOOLS DATA (website field = directory path)
       const allSchools = [
-        { id: 1, name: 'Lusaka International School', type: 'International', province: 'Lusaka', city: 'Lusaka', phone: '+260 211 123456', email: 'info@lis.edu.zm', website: '', description: 'One of Zambia\'s premier international schools, offering Cambridge curriculum from primary through to A-Levels since 1963.', imageUrl: 'pics/logo2.jpg', slug: 'lusaka-international' },
-        { id: 2, name: 'Mpelembe Secondary School', type: 'Secondary', province: 'Copperbelt', city: 'Kitwe', phone: '+260 212 234567', email: 'admin@mpelembe.edu.zm', website: '', description: 'Top-performing secondary school in Kitwe, excelling in science and mathematics.', imageUrl: 'pics/second.jpg', slug: 'mpelembe-secondary' },
+        { id: 1, name: 'Chongwe secondary School', type: 'International', province: 'Lusaka', city: 'Lusaka', phone: '+260 211 123456', email: 'info@lis.edu.zm', website: 'schools/chongwe/index.html', description: 'One of Zambia\'s and oldest schools in zambia.', imageUrl: 'pics/logo2.jpg', slug: 'chongwe-sec' },
+
+        { id: 2, name: 'Rafiki international  School', type: 'Secondary', province: 'Copperbelt', city: 'Kitwe', phone: '+260 212 234567', email: 'info@cho.edu.zm', website: 'schools/rafic/portal.html', description: 'Top-performing secondary school in chongwe, excelling in science and mathematics.', imageUrl: 'pics/second.jpg', slug: 'Rafiki-internation' },
+
         { id: 3, name: 'Kabulonga Girls Secondary', type: 'Secondary', province: 'Lusaka', city: 'Lusaka', phone: '+260 211 345678', email: 'info@kabulonga.edu.zm', website: '', description: 'Leading all-girls school empowering young women through quality education and leadership.', imageUrl: 'pics/logo4.jpg', slug: 'kabulonga-girls' },
+
         { id: 4, name: 'David Kaunda Technical', type: 'Technical', province: 'Lusaka', city: 'Lusaka', phone: '+260 211 456789', email: 'info@dktech.edu.zm', website: '', description: 'Premier technical secondary school producing skilled graduates for Zambia\'s growing industries.', imageUrl: 'pics/logo19.jpg', slug: 'david-kaunda-tech' },
         { id: 5, name: 'Hillcrest National Technical', type: 'Technical', province: 'Southern', city: 'Livingstone', phone: '+260 213 321654', email: 'admin@hillcrest.edu.zm', website: '', description: 'Well-established technical school in the tourist capital, known for practical skills training.', imageUrl: 'pics/logo1.jpg', slug: 'hillcrest-technical' },
         { id: 6, name: 'St. Mary\'s Secondary School', type: 'Secondary', province: 'Lusaka', city: 'Lusaka', phone: '+260 211 567890', email: 'contact@stmarys.edu.zm', website: '', description: 'Faith-based secondary school with a strong tradition of academic and moral excellence.', imageUrl: 'pics/logo6.jpg', slug: 'st-marys-secondary' },
